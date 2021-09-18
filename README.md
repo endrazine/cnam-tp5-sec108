@@ -1,4 +1,4 @@
-# CNAM TP5 : Generation d'un exploit pour Microsoft WORD ()
+# CNAM TP5 : Generation d'un exploit pour Microsoft WORD (CVE-2021-40444)
 
 Le but de ce TP est de se familiariser avec l'exploitation des corruptions mémoire, via l'exploitation d'un stack overflow simple.
 
@@ -21,6 +21,11 @@ Utiliser la commande "git clone" pour cloner le repertoire git de ce TP sur cett
         jonathan@blackbox:~/tp$ ls
         cnam-tp5-sec108
         jonathan@blackbox:~/tp$ 
+
+## Background
+
+La vulnérabilité CVE-2021-40444 a été découverte dans la nature (0day).
+Lire les détails ici: https://www.kaspersky.fr/blog/cve-2021-40444-vulnerability-mshtml/17575/
 
 ## Intitulé
 
